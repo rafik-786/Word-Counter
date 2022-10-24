@@ -1,1 +1,65 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.neomorph {
+  border-radius: 25px;
+  background: #dbdfdf;
+  box-shadow: 12px 12px 24px #babebe, -12px -12px 24px #f1efef;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #dbdfdf;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #635f5f;
+}
+
+.container {
+  width: 70vw;
+  height: 60vh;
+  text-align: center;
+}
+.container h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 4px;
+  color: #1a73e8;
+  text-shadow: 2px 4px 10px rgb(97, 72, 243);
+}
+.container .input-box {
+  width: 100%;
+  height: 75%;
+}
+.container .input-box textarea {
+  width: 95%;
+  height: 95%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background: #dbdfdf;
+  box-shadow: inset 10px 10px 20px #babebe, inset -10px -10px 20px #fcffff;
+  resize: none;
+  padding: 2rem;
+  font-size: 1.6rem;
+  color: #393939;
+}
+.container h2 {
+  font-size: 20px;
+  font-weight: 200;
+}
+.container h2 span:nth-child(2) {
+  color: rgb(206, 127, 48);
+}
+.container h2 span:nth-child(4) {
+  color: rgb(14, 140, 28);
+}/*# sourceMappingURL=main.css.map */
