@@ -31,7 +31,7 @@ body {
 }
 .container h1 {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 4px;
   color: #1a73e8;
   text-shadow: 2px 4px 10px rgb(97, 72, 243);
@@ -55,7 +55,7 @@ body {
 }
 .container h2 {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
 }
 .container h2 span:nth-child(2) {
   color: rgb(206, 127, 48);
