@@ -30,11 +30,12 @@ body {
   text-align: center;
 }
 .container h1 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 35px;
+  font-weight: 800;
   margin: 4px;
-  color: #1a73e8;
-  text-shadow: 2px 4px 10px rgb(97, 72, 243);
+  color: transparent;
+  text-shadow: 4px 4px 7px rgba(255, 255, 255, 0.361), 0 0 rgb(22, 2, 113);
+  text-transform: uppercase;
 }
 .container .input-box {
   width: 100%;
@@ -45,9 +46,9 @@ body {
   height: 95%;
   outline: none;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #dbdfdf;
-  box-shadow: inset 10px 10px 20px #babebe, inset -10px -10px 20px #fcffff;
+  box-shadow: inset 8px 8px 20px #babebe, inset -8px -8px 20px #fcffff;
   resize: none;
   padding: 2rem;
   font-size: 1.6rem;
